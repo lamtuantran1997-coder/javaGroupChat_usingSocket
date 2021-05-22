@@ -459,7 +459,6 @@ public class GUI_Client extends javax.swing.JFrame {
 
     private void submitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitActionPerformed
       
-         
         
         if(username.getText().equals("") || password.getText().equals("")){
             JOptionPane.showMessageDialog(this, "You must fill in all the fields", "Alert", JOptionPane.INFORMATION_MESSAGE);
@@ -508,8 +507,8 @@ public class GUI_Client extends javax.swing.JFrame {
             } catch (IOException ex) {
                 Logger.getLogger(GUI_Client.class.getName()).log(Level.SEVERE, null, ex);
             }
+            }
             
-            }   
         }
         }
     }//GEN-LAST:event_submitActionPerformed

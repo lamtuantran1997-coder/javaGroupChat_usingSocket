@@ -25,7 +25,7 @@ public class GUI_Server extends javax.swing.JFrame {
      private int PORT;
      public static boolean checkClient = false;
      private boolean stopThread = false;
-     public volatile boolean serverRunning;
+    
    
      
   
@@ -206,7 +206,6 @@ public class GUI_Server extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-      
         jDialog3.setLocationRelativeTo(jButton1);
         jDialog3.setModalityType(Dialog.ModalityType.APPLICATION_MODAL);
         jDialog3.pack();
